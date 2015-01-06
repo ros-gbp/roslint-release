@@ -1,3 +1,24 @@
+## roslint (jade) - 0.9.3-0
+
+The packages in the `roslint` repository were released into the `jade` distro by running `/usr/local/bin/bloom-release -r jade -t jade roslint --new-track` on `Tue, 06 Jan 2015 17:37:13 -0000`
+
+The `roslint` package was released.
+
+Version of package(s) in repository `roslint`:
+- upstream repository: https://github.com/ros/roslint.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.9.3-0`
+
+Versions of tools used:
+- bloom version: `0.5.14`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.10.33`
+- rosdistro version: `0.3.6`
+- vcstools version: `0.1.35`
+
+
 ## roslint (indigo) - 0.9.3-0
 
 The packages in the `roslint` repository were released into the `indigo` distro by running `/usr/local/bin/bloom-release -r indigo -t indigo roslint` on `Tue, 06 Jan 2015 16:48:30 -0000`
