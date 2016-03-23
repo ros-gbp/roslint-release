@@ -1,3 +1,26 @@
+## roslint (kinetic) - 0.11.0-0
+
+The packages in the `roslint` repository were released into the `kinetic` distro by running `/usr/local/bin/bloom-release -t kinetic -r kinetic roslint` on `Wed, 23 Mar 2016 18:06:22 -0000`
+
+The `roslint` package was released.
+
+Version of package(s) in repository `roslint`:
+
+- upstream repository: https://github.com/ros/roslint.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.11.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.4`
+- vcstools version: `0.1.38`
+
+
 ## roslint (jade) - 0.10.0-0
 
 The packages in the `roslint` repository were released into the `jade` distro by running `/usr/bin/bloom-release -r jade -t jade roslint` on `Fri, 07 Aug 2015 18:25:56 -0000`
