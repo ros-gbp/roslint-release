@@ -1,3 +1,26 @@
+## roslint (indigo) - 0.11.0-0
+
+The packages in the `roslint` repository were released into the `indigo` distro by running `/usr/local/bin/bloom-release -r indigo -t indigo roslint` on `Thu, 22 Sep 2016 17:56:02 -0000`
+
+The `roslint` package was released.
+
+Version of package(s) in repository `roslint`:
+
+- upstream repository: https://github.com/ros/roslint.git
+- release repository: https://github.com/ros-gbp/roslint-release.git
+- rosdistro version: `0.10.0-0`
+- old version: `0.10.0-0`
+- new version: `0.11.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.38`
+
+
 ## roslint (kinetic) - 0.11.0-0
 
 The packages in the `roslint` repository were released into the `kinetic` distro by running `/usr/local/bin/bloom-release -t kinetic -r kinetic roslint` on `Wed, 23 Mar 2016 18:06:22 -0000`
