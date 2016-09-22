@@ -26,7 +26,7 @@ macro(_roslint_create_targets)
 endmacro()
 
 # Run a custom lint command on a list of file names.
-# 
+#
 # :param linter: linter command name.
 # :param lintopts: linter options.
 # :param argn: a non-empty list of files to process.
@@ -52,9 +52,6 @@ function(roslint_cpp)
   if (NOT DEFINED ROSLINT_CPP_CMD)
     set(ROSLINT_CPP_CMD ${ROSLINT_SCRIPTS_DIR}/cpplint)
   endif()
-  if (NOT DEFINED ROSLINT_CPP_OPTS)
-    set(ROSLINT_CPP_OPTS "--filter=-runtime/references")
-  endif()
   roslint_custom("${ROSLINT_CPP_CMD}" "${ROSLINT_CPP_OPTS}" ${ARGN})
 endfunction()
 
@@ -66,9 +63,6 @@ function(roslint_python)
   endif()
   if (NOT DEFINED ROSLINT_PYTHON_CMD)
     set(ROSLINT_PYTHON_CMD ${ROSLINT_SCRIPTS_DIR}/pep8)
-  endif()
-  if (NOT DEFINED ROSLINT_PYTHON_OPTS)
-    set(ROSLINT_PYTHON_OPTS "--max-line-length=120")
   endif()
   roslint_custom("${ROSLINT_PYTHON_CMD}" "${ROSLINT_PYTHON_OPTS}" ${ARGN})
 endfunction()
