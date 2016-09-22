@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>roslint</name>
-  <version>0.10.0</version>
+  <version>0.11.0</version>
   <description>
     CMake lint commands for ROS packages.
 
@@ -10,6 +10,7 @@
   </description>
   <license>BSD</license>
   <maintainer email="mpurvis@clearpathrobotics.com">Mike Purvis</maintainer>
+  <maintainer email="ahenning@fetchrobotics.com">Alex Henning</maintainer>
   <author>Mike Purvis</author>
   <author>Jack O'Quin</author>
 
