@@ -1,3 +1,26 @@
+## roslint (melodic) - 0.11.2-0
+
+The packages in the `roslint` repository were released into the `melodic` distro by running `/usr/local/bin/bloom-release -r melodic -t melodic roslint` on `Wed, 21 Mar 2018 16:24:28 -0000`
+
+The `roslint` package was released.
+
+Version of package(s) in repository `roslint`:
+
+- upstream repository: https://github.com/ros/roslint.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.11.2-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.0`
+- catkin_pkg version: `0.4.1`
+- rosdep version: `0.11.8`
+- rosdistro version: `0.6.6`
+- vcstools version: `0.1.39`
+
+
 ## roslint (lunar) - 0.11.1-0
 
 The packages in the `roslint` repository were released into the `lunar` distro by running `/usr/local/bin/bloom-release -r lunar -t lunar roslint` on `Fri, 17 Mar 2017 16:42:23 -0000`
