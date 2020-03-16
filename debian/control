@@ -1,0 +1,13 @@
+Source: ros-noetic-roslint
+Section: misc
+Priority: extra
+Maintainer: Mike Purvis <mpurvis@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: http://ros.org/wiki/roslint
+Standards-Version: 3.9.2
+
+Package: ros-noetic-roslint
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: CMake lint commands for ROS packages.
+ The lint commands perform static checking of Python or C++ source code for errors and standards compliance.
