@@ -1,3 +1,26 @@
+## roslint (noetic) - 0.12.0-1
+
+The packages in the `roslint` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --ros-distro noetic roslint` on `Mon, 16 Mar 2020 20:18:19 -0000`
+
+The `roslint` package was released.
+
+Version of package(s) in repository `roslint`:
+
+- upstream repository: https://github.com/ros/roslint.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.12.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.14`
+- rosdep version: `0.18.0`
+- rosdistro version: `0.8.0`
+- vcstools version: `0.1.42`
+
+
 ## roslint (melodic) - 0.11.2-0
 
 The packages in the `roslint` repository were released into the `melodic` distro by running `/usr/local/bin/bloom-release -r melodic -t melodic roslint` on `Wed, 21 Mar 2018 16:24:28 -0000`
